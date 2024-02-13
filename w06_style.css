@@ -1,23 +1,23 @@
 p {
-  text-align: center
-  font-size: 10px
+  text-align: center;
+  font-size: 10px;
 }
 
 img {
-  border: 3px red
+  border: 3px red;
 }
 
 body {
-  background-color: green
+  background-color: green;
 }
 
 ul {
-  color: baige
-  font-family: "Times New Roman"
+  color: brown;
+  font-family: "Times New Roman";
 }
 
 h1 {
-  width: 3px
-  height: 1000px
-  font-wieght: bold
+  width: 3px;
+  height: 1000px;
+  font-wieght: bold;
 }
