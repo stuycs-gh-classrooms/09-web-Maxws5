@@ -2,6 +2,7 @@ nav {
   background-color: #004C54;
   font-size: 24px;
   font-family: "Copperplate", "Papyrus", fantasy;
+  margin: 0;
 }
 
 .navlink {
