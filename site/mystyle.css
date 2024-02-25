@@ -1,3 +1,13 @@
-.navlink {
+nav {
   background-color: #004C54;
+  font-size: 24px;
+  font-family: "Copperplate", "Papyrus", fantasy;
+}
+
+.navlink {
+  color: white;
+}
+
+.active {
+  background-color: #046A38
 }
