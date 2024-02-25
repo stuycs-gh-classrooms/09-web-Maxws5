@@ -6,8 +6,10 @@ nav {
 
 .navlink {
   color: white;
+  text-decoration: none;
 }
 
 .active {
-  background-color: #046A38
+  color: #046A38;
+  text-decoration: none;
 }
