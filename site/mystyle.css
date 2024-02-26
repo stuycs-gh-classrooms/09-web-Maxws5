@@ -16,7 +16,7 @@ nav {
 }
 
 li {
-  display: inline;
+
 }
 
 body {
@@ -27,6 +27,8 @@ body {
 .navlink {
   color: white;
   text-decoration: none;
+  display: inline;
+  padding: 3 0 3 0
 }
 
 .active {
