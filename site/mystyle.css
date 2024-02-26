@@ -10,8 +10,8 @@ body{
 }
 
 nav {
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
+  padding-top: .15em;
+  padding-bottom: .15em;
   background-color: #004C54;
   font-size: 24px;
   font-family: "Copperplate", "Papyrus", fantasy;
