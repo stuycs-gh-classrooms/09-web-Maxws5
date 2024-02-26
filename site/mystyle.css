@@ -37,6 +37,9 @@ p {
   font-size: 1.5em;
 }
 
+.stats {font-family: "Courier", monospace;
+font-size: 1.5em;}
+
 .not {
   text-align: center;
 }
