@@ -10,7 +10,8 @@ body{
 }
 
 nav {
-  margin: inherit;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
   background-color: #004C54;
   font-size: 24px;
   font-family: "Copperplate", "Papyrus", fantasy;
