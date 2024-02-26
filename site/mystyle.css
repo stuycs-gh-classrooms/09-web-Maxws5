@@ -1,9 +1,10 @@
 html{
-
+background-color: #8A8D8F;
 }
 
 body{
   width: 90%;
+  margin: auto;
 }
 
 nav {
@@ -14,9 +15,13 @@ nav {
   text-align: center;
 }
 
+li {
+  display: inline;
+}
+
 body {
   background-color: #057840;
-  color: #ACC0C6;
+  color: white;
 }
 
 .navlink {
