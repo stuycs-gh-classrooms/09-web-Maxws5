@@ -17,6 +17,10 @@ nav {
   text-align: center;
 }
 
+h1 {
+  padding: inherit;
+}
+
 .nav1 {
   display: inline;
   padding: 20px;
