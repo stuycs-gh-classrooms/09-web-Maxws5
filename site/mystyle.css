@@ -20,18 +20,18 @@ nav {
 }
 
 h1 {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Courier", monospace;
   font-size: 3em;
 }
 
 h2 {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Courier", monospace;
   font-size: 2em;
 }
 
 p {
   padding: 0.03em;
-  font-family: "Luminari", "Monaco", "Courier", monospace;
+  font-family: "Courier", monospace;
   font-size: em;
 }
 
