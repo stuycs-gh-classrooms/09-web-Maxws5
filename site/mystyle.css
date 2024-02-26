@@ -19,7 +19,11 @@ nav {
 }
 
 h1 {
-  padding: inherit;
+  padding: 0.007em;
+}
+
+p {
+  padding: 0.07em
 }
 
 .nav1 {
