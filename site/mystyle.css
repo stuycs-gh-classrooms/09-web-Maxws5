@@ -15,6 +15,10 @@ nav {
   text-decoration: none;
 }
 
-body {
+html {
   background-color: #057840
+}
+
+body {
+  color: #8A8D8F;
 }
