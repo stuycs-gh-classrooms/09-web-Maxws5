@@ -5,6 +5,11 @@ nav {
   margin: 10;
 }
 
+body {
+  background-color: #057840;
+  color: #8A8D8F;
+}
+
 .navlink {
   color: white;
   text-decoration: none;
@@ -13,9 +18,4 @@ nav {
 .active {
   color: #046A38;
   text-decoration: none;
-}
-
-body {
-  background-color: #057840;
-  color: #8A8D8F;
 }
