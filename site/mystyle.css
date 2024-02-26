@@ -43,8 +43,12 @@ p {
   font-size: 1.5em;
 }
 
-.stats {font-family: "Courier", monospace;
-font-size: 1.5em;}
+.stats {
+  font-family: "Courier", monospace;
+  font-size: 1.5em;
+  display: table;
+  margin: 0 auto;
+}
 
 .not {
   text-align: center;
