@@ -10,12 +10,11 @@ body{
 }
 
 nav {
+  margin: inherit;
   background-color: #004C54;
   font-size: 24px;
   font-family: "Copperplate", "Papyrus", fantasy;
   text-align: center;
-  border-top-left-radius: inherit;
-  border-top-right-radius: inherit;
 }
 
 .nav1 {
