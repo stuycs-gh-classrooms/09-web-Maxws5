@@ -35,6 +35,9 @@ p {
   padding: 0.03em;
   font-family: "Courier", monospace;
   font-size: 1.5em;
+}
+
+.not {
   text-align: center;
 }
 
