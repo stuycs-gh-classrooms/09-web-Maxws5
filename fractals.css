@@ -1,0 +1,34 @@
+html{
+background-color: #8A8D8F;
+}
+
+body{
+  width: 90%;
+  margin: auto;
+  background-color: #057840;
+  color: white;
+  padding: 0.3em
+}
+h1 {
+  font-family: "Courier", monospace;
+  font-size: 3em;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Courier", monospace;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Courier", monospace;
+  font-size: 2em;
+  text-align: center;
+}
+
+p {
+  padding: 0.03em;
+  font-family: "Courier", monospace;
+  font-size: 1.5em;
+}
