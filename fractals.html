@@ -15,10 +15,18 @@
       <img src="spert.png" height="300px">
     <h3>Modified</h3>
       <img src="tri_mod.png" height="300px">
+      <p>The modifiocations I made for this one are pretty interesting. The
+        first is color based. After the first recursion, the turtles color is
+        chnaged so that it has a rgb value of 50 times the dpeth for red, and
+        then zero for blue and green. This is replicated after the two other
+        recursions, but with green and blue instead. The second modifiaction is
+        on length. There are actually two parts. First, length is halfed everytime
+        the function is run again. Second, instead of just going forward 'length'
+        the turtle goes forward length divided by four times the depth. </p>
     <h3>Code</h3>
     <pre><code>
-      def draw_sierpinski(t, depth, length):
-    if depth > 1:
+    def draw_sierpinski(t, depth, length):
+      if depth > 1:
         draw_sierpinski(t, depth-1, length/2)
         t.color(depth * 50, 0, 0)
         t.fd(length/4*depth)
@@ -32,7 +40,7 @@
         t.rt(120)
         t.fd(length/4*depth)
         t.lt(120)
-    else:
+      else:
         time = 3
         while time > 0:
             t.color('blue')
@@ -40,7 +48,7 @@
             t.lt(120)
             time-=1
 
-      draw_sierpinski(max_jr, 5,200)
+  draw_sierpinski(max_jr, 5,200)
     </code></pre>
 
     <h2>Kotch Curve</h2>
