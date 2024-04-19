@@ -16,6 +16,32 @@
     <h3>Modified</h3>
       <img src="tri_mod.png" height="300px">
     <h3>Code</h3>
+    <pre><code>
+      def draw_sierpinski(t, depth, length):
+    if depth > 1:
+        draw_sierpinski(t, depth-1, length/2)
+        t.color(depth * 50, 0, 0)
+        t.fd(length/4*depth)
+        draw_sierpinski(t, depth-1, length/2)
+        t.color(0, depth * 50, 0)
+        t.lt(120)
+        t.fd(length/4*depth)
+        t.rt(120)
+        draw_sierpinski(t, depth-1, length/2)
+        t.color(0,0,depth * 50)
+        t.rt(120)
+        t.fd(length/4*depth)
+        t.lt(120)
+    else:
+        time = 3
+        while time > 0:
+            t.color('blue')
+            t.fd(length)
+            t.lt(120)
+            time-=1
+
+      draw_sierpinski(max_jr, 5,200)
+    </code></pre>
 
     <h2>Kotch Curve</h2>
     <h3>Regular</h3>
@@ -23,12 +49,55 @@
     <h3>Modified</h3>
       <img src="kotch_mod.png" height="300px">
     <h3>Code</h3>
+    <pre><code>
+      def draw_koch(t, depth, length):
+        if depth > 0:
+          t.color(random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
+          draw_koch(t, depth-1, length)
+          t.lt (random.randint(50, 70))
+          draw_koch(t, depth-1, length)
+          t.rt (random.randint(110, 130))
+          draw_koch(t, depth-1, length)
+          t.lt (random.randint(50, 70))
+          draw_koch(t, depth-1, length)
+        else:
+          t.fd (length)
+
+draw_koch(max_jr, 4, 20)
+</code></pre>
 
     <h2>Fractal Tree</h2>
     <h3>Regular</h3>
       <img src="tree.png" height="300px">
     <h3>Modified</h3>
       <img src="spert_mod.png" height="300px">
-    <h3>Code</h3>
+    <h3>Code</h3>\
+    <pre><code>
+      max_jr.lt(90)
+def tree(t, depth, length, angle):
+    if depth % 3 == 0:
+        t.color('red')
+    else:
+        t.color('blue')
+    if depth % 2 == 0:
+        w = 0.5
+    else:
+        w = 2
+    if depth > 1:
+        t.pendown()
+        t.fd(length)
+        t.rt(angle)
+        tree(t, depth-1, length, angle/w)
+        t.lt(angle*2)
+        tree(t, depth-1, length, angle/w)
+        t.rt(angle)
+        t.bk(length)
+    else:
+        t.penup()
+        t.fd(length)
+        t.bk(length)
+
+tree(max_jr, 8, 30, 60)
+</code></pre>
 </body>
 </html>
